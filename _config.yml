@@ -1,2 +1,5 @@
 theme: jekyll-theme-architect
 title: SJA Flashes
+
+plugins:
+  - jekyll-mentions
