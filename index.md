@@ -1,6 +1,6 @@
 ##Welcome
 
-Welcome to the FRC team 5753 Github page! Our team lead is @Heathens-Beware. We are based in St. Augustine, Florida in a small Catholic high school. We hope you enjoy your time on this page and go flashes!
+Welcome to the FRC team 5753 Github page! Our team lead is @Heathens-Beware, a current Junior/rising Senior. We are based in St. Augustine, Florida in a small Catholic high school. We hope you enjoy your time on this page and go Flashes!
 
 ### Markdown
 
