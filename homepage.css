@@ -1,0 +1,12 @@
+
+.header{
+    display: block; 
+    width: 100vw;
+    height: 130px;
+    background-color: rgb(34, 140, 85);
+}
+
+#github{
+    position: relative;
+    left: 1000px;
+}
