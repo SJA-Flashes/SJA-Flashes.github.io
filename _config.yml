@@ -1,5 +1,7 @@
 theme: jekyll-theme-architect
 title: SJA Flashes
 
+Subtitle: Robotics Coding
+
 plugins:
   - jekyll-mentions
