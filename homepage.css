@@ -1,0 +1,40 @@
+.logo{
+  margin: 0 auto;
+  position: fixed;
+  top: 0vw;
+  left: 0vw;
+  background: rgb(1,54,8);
+}
+
+#github{
+  visibility: hidden;
+  position: fixed;
+  top: 100px;
+  right: 980px;
+}
+
+#sjaweb{
+  visibility: hidden;
+  position: fixed;
+  top: 100px;
+  right: 930px;
+}
+
+.bannertext{
+  margin: 0 auto;
+  position: fixed;
+  top: 0em;
+  left: 4.7em;
+  width: 350em;
+  height: 3.74em;
+  font-family: 'IM Fell English', serif;
+
+  background: rgb(210,201,149);
+}
+
+#testpar{
+  display: block;
+  background: black;
+  margin: auto;
+  padding: auto;
+}
