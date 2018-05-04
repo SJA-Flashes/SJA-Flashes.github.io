@@ -2,7 +2,9 @@
   display: block;
   margin: auto;
   padding: auto;
-  position: absolute;
+  position: fixed;
+  right: 84vw;
+  top: 0vw;
   background: rgb(1,54,8);
 }
 
@@ -21,15 +23,13 @@
 }
 
 .bannertext{
-  text-align: left;
-  position: absolute;
-  left: 158px;
-  padding-bottom: 57px;
-  padding-right: 177px;
-font-family: 'IM Fell English', serif;
-font-size: 50;
   margin: auto;
   padding: auto;
+  position: fixed;
+  right: 44vw;
+  top: 0vw;
+  height: 13.3vw;
+font-family: 'IM Fell English', serif;
   background: rgb(210,201,149);
 }
 
