@@ -28,9 +28,9 @@
     padding: 10px;
   position: fixed;
     bottom: 788px;
-    right: -35px;
+    right: 624px;
     height: 120px;
-    width: 1050px;
+    width: auto;
   background: rgb(210,201,149);
 }
 
