@@ -1,10 +1,8 @@
 .logo{
-  display: block;
-  margin: auto;
-  padding: auto;
+  margin: 0 auto;
   position: fixed;
-  right: 84vw;
   top: 0vw;
+  left: 0vw;
   background: rgb(1,54,8);
 }
 
@@ -23,13 +21,14 @@
 }
 
 .bannertext{
-  margin: auto;
-  padding: auto;
+  margin: 0 auto;
   position: fixed;
-  right: 44vw;
-  top: 0vw;
-  height: 13.3vw;
-font-family: 'IM Fell English', serif;
+  top: 0em;
+  left: 4.7em;
+  width: 350em;
+  height: 3.74em;
+  font-family: 'IM Fell English', serif;
+
   background: rgb(210,201,149);
 }
 
