@@ -1,6 +1,8 @@
 .logo{
+  display: block;
   margin: auto;
   padding: auto;
+  position: absolute;
   background: rgb(1,54,8);
 }
 
@@ -19,13 +21,15 @@
 }
 
 .bannertext{
-  position: relative;
-  height: 120px;
-  top: -120px;
+  text-align: left;
+  position: absolute;
+  left: 158px;
+  padding-bottom: 57px;
+  padding-right: 177px;
 font-family: 'IM Fell English', serif;
+font-size: 50;
   margin: auto;
   padding: auto;
-  margin-left: 150px;
   background: rgb(210,201,149);
 }
 
