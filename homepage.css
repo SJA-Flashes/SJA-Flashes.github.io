@@ -1,6 +1,6 @@
 .logo{
-  display: block;
-  padding: 10px;
+  margin: auto;
+  padding: auto;
   background: rgb(1,54,8);
 }
 
@@ -19,24 +19,19 @@
 }
 
 .bannertext{
-  font-family: 'IM Fell English', serif;
-  font-style: italic;
-  font-size: 90;
-
-  display: block;
-    margin: auto;
-    padding: 10px;
-  position: fixed;
-    bottom: 788px;
-    right: 624px;
-    height: 120px;
-    width: auto;
+  position: relative;
+  height: 120px;
+  top: -120px;
+font-family: 'IM Fell English', serif;
+  margin: auto;
+  padding: auto;
+  margin-left: 150px;
   background: rgb(210,201,149);
 }
 
 #testpar{
   display: block;
-  background-color: black;
-  height: 100px;
-  width: 100px;
+  background: black;
+  margin: auto;
+  padding: auto;
 }
