@@ -4,6 +4,7 @@
   top: 0vw;
   left: 0vw;
   background: rgb(0,30,0);
+  height: 8.55em;
   padding: .2vw 2vw .5vw .2vw;
 }
 
@@ -25,13 +26,12 @@
   color: rgb(0,35,0);
   margin: 0 auto;
   position: fixed;
-  top: -.05em;
+  top: 0vw;
   left: 1.45em;
-  width: 350em;
-  height: 1em;
+  min-width: 350em;
+  min-height: 1.22em;
   font-family: 'IM Fell English', serif;
   font-size: 7em;
-  padding: 0vw 0vw 1.22vw 1vw;
-
+  padding: .2vw 2vw .5vw .2vw;
   background: rgb(210,201,149);
 }
