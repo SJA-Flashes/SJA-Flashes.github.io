@@ -1,34 +1,11 @@
+/*LOGO AND BACKGROUND IMAGE OF HOMEPAGE*/
 #logo {
   margin: 0 auto;
-  z-index: 3;
+  z-index: 1;
   position: fixed;
-    top: 0;
-    left: 0;
-  width: 7vw;
-}
-
-#test {
-  z-index: 5;
+    top: 2vw;
+    left: 30vw;
   width: 35vw;
-  height: 25vw;
-  position: fixed;
-  top: 5vw;
-  right: 35vw;
-}
-
-#bannertext {
-  z-index: 2;
-  margin:  auto;
-  position: fixed;
-    top: 0;
-    left: 5vw;
-  height: 7.02vw;
-  width: 100%;
-  color: rgb(0,35,0);
-  font-family: 'IM Fell English', serif;
-    font-size: 5.6vw;
-    text-align: center;
-  background: rgb(210,201,149);
 }
 
 #background {
@@ -40,13 +17,21 @@
   width: 100vw;
 }
 
-#body-p {
+/*NAVIGATION MENU*/
+li {
   margin: auto;
-  z-index: 1;
-  background-color: rgb(0,35,0);
+  display: inline;
+}
+.menu-list {
+  z-index: 2;
+  margin:  auto;
   position: fixed;
-  left: 0;
-  top: 40vw;
-  height: 2%;
+    top: 40vw;
+    left: 0;
+    height: 40vw;
   width: 100%;
+  color: rgb(0,35,0);
+  font-family: 'IM Fell English', serif;
+  font-size: 5vw;
+  background: rgb(210,201,149);
 }
