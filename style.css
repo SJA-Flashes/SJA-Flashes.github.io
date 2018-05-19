@@ -1,37 +1,59 @@
-/*LOGO AND BACKGROUND IMAGE OF HOMEPAGE*/
+/*BACKDROP*/
 #logo {
-  margin: 0 auto;
   z-index: 1;
   position: fixed;
-    top: 2vw;
+    top: 3vw;
     left: 30vw;
   width: 35vw;
 }
 
 #background {
-  z-index: 0;
-  margin: auto;
   position: fixed;
-  left: 0;
-  top: -5vw;
-  width: 100vw;
+    left: 0;
+  width: 100%;
 }
 
 /*NAVIGATION MENU*/
-li {
-  margin: auto;
-  display: inline;
-}
-.menu-list {
+nav a {
+  text-decoration: none;
   z-index: 2;
-  margin:  auto;
-  position: fixed;
-    top: 40vw;
-    left: 0;
-    height: 40vw;
+  padding-left: 0vw;
   width: 100%;
   color: rgb(0,35,0);
-  font-family: 'IM Fell English', serif;
+}
+
+nav a:hover {
+  background-color: rgb(0,35,0);
+  color: rgb(210,201,149);
+}
+
+nav {
+  overflow: hidden;
+  z-index: 5;
+  position: fixed;
+    top: 0;
+    left: 0vw;
+    height: 2.3vw;
+    width: 100%;
+    background: rgb(210,201,149);
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+  word-spacing: 0.5vw;
+  text-align: left;
+  font-size: 2vw;
+}
+
+/*BODY*/
+#body {
+  z-index: 3;
+  position: absolute;
+    left: 0;
+    bottom: -960vw;
+    width: 100%;
+    height: 1000vw;
+  background: rgb(0,35,0);
+  color: white;
+  font-family: 'Kanit', sans-serif;
   font-size: 5vw;
-  background: rgb(210,201,149);
+  text-align: center;
 }
