@@ -1,3 +1,6 @@
+html {
+  overflow: auto;
+}
 /*BACKDROP*/
 #logo {
   z-index: 1;
@@ -8,9 +11,25 @@
 }
 
 #background {
-  position: fixed;
-    left: 0;
   width: 100%;
+    position: absolute;
+      top: -2vw;
+      left: 0;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+#background2 {
+  width: 100%;
+    position: absolute;
+      top: 75vw;
+      left: 0;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
 }
 
 /*NAVIGATION MENU*/
@@ -43,25 +62,61 @@ nav {
   font-size: 2vw;
 }
 
-/*BODY*/
-#body {
+/*ABOUT*/
+.about {
   margin: 0;
   z-index: 3;
   position: absolute;
     left: 0;
     top: 40vw;
     width: 100%;
-    height: 100vw;
-  background: rgb(210,201,149);
-  background: linear-gradient(0deg, rgba(210,201,149,1) 0%, rgba(0,35,0,1) 25%);
+    height: 30vw;
+  padding-bottom: 5vw;
+  background: rgb(0,35,0);
   color: white;
   font-family: 'Kanit', sans-serif;
-  font-size: 5vw;
+  font-size: 3vw;
   text-align: center;
 }
 
-#body p {
+
+.about p {
   margin: 0;
+  font-family: serif;
   font-size: 2vw;
-    padding: 0 5vw 0 5vw;
+  font-weight: lighter;
+    padding: 0 10vw 0 10vw;
+}
+
+/*2018 ROBOT HOMEPAGE*/
+.robot2k18 {
+  margin: 0;
+  z-index: 3;
+  position: absolute;
+    left: 0;
+    top: 118vw;
+    width: 100%;
+    height: 40.9vw;
+  padding-bottom: 5vw;
+  background: rgb(0,35,0);
+  color: white;
+  font-family: 'Kanit', sans-serif;
+  font-size: 2vw;
+  text-align: center;
+}
+
+.robot2k18 img {
+  float: right;
+  width: 50vw;
+
+}
+
+.robot2k18 p {
+  padding: 0 50vw 0 0;
+  position: absolute;
+    top: 10vw;
+  float: left;
+  font-family: serif;
+  font-size: 2vw;
+  text-align: center;
 }
