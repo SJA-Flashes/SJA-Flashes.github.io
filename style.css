@@ -1,65 +1,84 @@
-html {
-  overflow: auto;
+/*GENERAL STUFF*/
+h1 {
+  font-family: 'Raleway', sans-serif;
+  color: #d2c995;
+  font-size: 5vw;
 }
+
+p {
+  font-family: serif;
+  font-size: 2vw;
+  font-weight: lighter;
+  text-align: center;
+  color: #d2c995;
+}
+
 /*BACKDROP*/
 #logo {
   z-index: 1;
-  position: fixed;
-    top: 3vw;
-    left: 30vw;
-  width: 35vw;
+  position: absolute;
+    top: 6vw;
+    left: 35vw;
+  width: 33vw;
 }
 
-#background {
-  width: 100%;
-    position: absolute;
-      top: -2vw;
-      left: 0;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+
+.background1, .background2, .background3 {
+  position: relative;
+  background-position: 0 -15vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-#background2 {
-  width: 100%;
-    position: absolute;
-      top: 75vw;
-      left: 0;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+.background1 {
+  background-image: url("background.jpg");
+  height: 60vw;
+}
+
+.background2 {
+  background-image: url("background2.jpg");
+  background-position: 0 5vw;
+  min-height: 60vw;
+}
+
+.background3 {
+  background-image: url("background3.jpg");
+  background-position: 0 0vw;
+  min-height: 70vw;
 }
 
 /*NAVIGATION MENU*/
 nav a {
-  text-decoration: none;
-  z-index: 2;
-  padding-left: 0vw;
-  width: 100%;
+  padding-top: 1.5vw;
+  border-top: 2px solid transparent;
+  position: relative;
+    top: -1vw;
+    left: 41vw;
+  font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 2.5vw;
+    text-decoration: none;
   color: rgb(0,35,0);
 }
 
 nav a:hover {
-  background-color: rgb(0,35,0);
-  color: rgb(210,201,149);
+  border-top: 5px solid rgb(0,35,0);
 }
 
 nav {
-  overflow: hidden;
-  z-index: 5;
+  overflow: visible;
+  z-index: 100;
   position: fixed;
     top: 0;
-    left: 0vw;
-    height: 2.3vw;
-    width: 100%;
-    background: rgb(210,201,149);
-  font-family: 'Raleway', sans-serif;
-  font-weight: bolder;
-  word-spacing: 0.5vw;
-  text-align: left;
-  font-size: 2vw;
+    left: 0;
+  width: 100%;
+  background: rgb(210,201,149);
+  word-spacing: 3vw;
+}
+
+.navlogo {
+  width: 5vw;
 }
 
 /*ABOUT*/
@@ -70,22 +89,17 @@ nav {
     left: 0;
     top: 40vw;
     width: 100%;
-    height: 30vw;
+    height: 25vw;
   padding-bottom: 5vw;
   background: rgb(0,35,0);
   color: white;
-  font-family: 'Kanit', sans-serif;
-  font-size: 3vw;
   text-align: center;
 }
 
 
 .about p {
   margin: 0;
-  font-family: serif;
-  font-size: 2vw;
-  font-weight: lighter;
-    padding: 0 10vw 0 10vw;
+  padding: 0 10vw 0 10vw;
 }
 
 /*2018 ROBOT HOMEPAGE*/
@@ -94,29 +108,69 @@ nav {
   z-index: 3;
   position: absolute;
     left: 0;
-    top: 118vw;
+    top: 40vw;
     width: 100%;
-    height: 40.9vw;
+    height: 40vw;
   padding-bottom: 5vw;
   background: rgb(0,35,0);
   color: white;
-  font-family: 'Kanit', sans-serif;
-  font-size: 2vw;
-  text-align: center;
-}
-
-.robot2k18 img {
-  float: right;
-  width: 50vw;
-
+  text-align: left;
 }
 
 .robot2k18 p {
-  padding: 0 50vw 0 0;
+  padding: 0 55vw 0 5vw;
   position: absolute;
     top: 10vw;
   float: left;
-  font-family: serif;
-  font-size: 2vw;
-  text-align: center;
+  text-decoration: none;
+}
+
+.robot2k18 img {
+  position: absolute;
+    right: 0;
+  width: 49vw;
+}
+
+/*WHAT IS FIRST?*/
+.FIRST {
+  z-index: 3;
+  position: absolute;
+    top: 65vw;
+    left: 0;
+  width: 100%;
+  height: 40vw;
+  text-align: left;
+  background: rgb(0,35,0);
+}
+
+.FIRST img {
+  height: 35vw;
+  float: left;
+}
+
+/*FOOTER*/
+#copyright {
+  z-index: 100;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 1vw;
+  text-align: left;
+  position: absolute;
+    bottom: -150vw;
+  width: 100%;
+  height: 5vw;
+  color: rgb(0,35,0);
+  background-color: rgb(210,201,149);
+}
+
+#maintained {
+  z-index: 100;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 1vw;
+  text-align: left;
+  position: absolute;
+    bottom: -152vw;
+  width: 100%;
+  height: 5vw;
+  color: rgb(0,35,0);
+  background-color: rgb(210,201,149);
 }
