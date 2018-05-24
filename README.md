@@ -1,3 +1,3 @@
 # Team-Website
 
-This is the repository for the website of FRC team 5753. This is the main branch where all completed files will be.
+Branch for when I'm not at home and i don't have access to my home computer. Your eyes will bleed if you look at any of this code.
