@@ -1,3 +1,3 @@
-# FRC Tea 5753 Website
+# FRC Team 5753 Website
 
-This is the repository for our website. This website was programmed by @Diiabetes.
+This is the repository for our website.
