@@ -34,12 +34,12 @@
      height: 50vw;
 }
  .background2 {
-     background-image: url("background2.jpg");
+     background-image: url("background2.JPG");
      background-position: 0 3vw;
      min-height: 30vw;
 }
  .background3 {
-     background-image: url("background3.jpg");
+     background-image: url("background3.JPG");
      background-position: 0 0;
      min-height: 30vw;
 }
