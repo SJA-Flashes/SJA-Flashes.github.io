@@ -70,15 +70,7 @@
      float: left;
      width: 20vw;
 }
- #logotext {
-     position: fixed;
-     left: 2vw;
-     top: -2.2vw;
-     font-family: 'IBM Plex Sans', sans-serif;
-     font-size: 2.5vw;
-     word-spacing: normal;
-     color: rgb(210,201,149);
-}
+
 /*ABOUT*/
  .about {
      margin: 0 auto;
