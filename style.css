@@ -133,3 +133,9 @@
      position: relative;
      bottom: 0;
 }
+
+#github {
+	position: absolute;
+		left: 0;
+	width: 5vw;
+}
