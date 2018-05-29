@@ -84,6 +84,183 @@
      margin: 0 auto;
      z-index: 3;
      position: relative;
+/*GENERAL STUFF*/
+ html, body {
+     margin: 0 auto;
+     text-align: center;
+}
+ h1 {
+     font-family: 'Raleway', sans-serif;
+     font-size: 5vw;
+     color: #d2c995;
+}
+ p {
+     font-family: serif;
+     font-weight: lighter;
+     font-size: 2vw;
+     color: #d2c995;
+}
+/*BACKDROP*/
+ #logo {
+     z-index: 1;
+     position: absolute;
+     top: 10vw;
+     left: 35vw;
+     width: 33vw;
+}
+ .background1, .background2, .background3 {
+     position: relative;
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+}
+ .background1 {
+     background-image: url("background.JPG");
+     height: 50vw;
+}
+ .background2 {
+     background-image: url("background2.JPG");
+     background-position: 0 3vw;
+     min-height: 30vw;
+}
+ .background3 {
+     background-image: url("background3.JPG");
+     background-position: 0 0;
+     min-height: 30vw;
+}
+/*NAVIGATION MENU*/
+ nav {
+     z-index: 100;
+     background: rgb(210,201,149);
+     word-spacing: 3vw;
+     text-align: left;
+     overflow: hidden;
+     position: fixed;
+     width: 100%;
+     height: 3vw;
+}
+ nav a {
+     position: relative;
+     font-family: sans-serif;
+     font-weight: bolder;
+     font-size: 2.45vw;
+     text-decoration: none;
+     border-top: 20px solid transparent;
+     color: rgb(0,35,0);
+}
+ nav a:hover {
+     border-top: 15px solid rgb(0,35,0);
+}
+ #navlogo {
+     float: left;
+     width: 20vw;
+}
+ #logotext {
+     position: fixed;
+     left: 2vw;
+     top: -2.2vw;
+     font-family: 'IBM Plex Sans', sans-serif;
+     font-size: 2.5vw;
+     word-spacing: normal;
+     color: rgb(210,201,149);
+}
+/*ABOUT*/
+ .about {
+     margin: 0 auto;
+     z-index: 3;
+     position: relative;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: auto;
+     text-align: center;
+/*GENERAL STUFF*/
+ html, body {
+     margin: 0 auto;
+     text-align: center;
+}
+ h1 {
+     font-family: 'Raleway', sans-serif;
+     font-size: 5vw;
+     color: #d2c995;
+}
+ p {
+     font-family: serif;
+     font-weight: lighter;
+     font-size: 2vw;
+     color: #d2c995;
+}
+/*BACKDROP*/
+ #logo {
+     z-index: 1;
+     position: absolute;
+     top: 10vw;
+     left: 35vw;
+     width: 33vw;
+}
+ .background1, .background2, .background3 {
+     position: relative;
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+}
+ .background1 {
+     background-image: url("background.JPG");
+     height: 50vw;
+}
+ .background2 {
+     background-image: url("background2.JPG");
+     background-position: 0 3vw;
+     min-height: 30vw;
+}
+ .background3 {
+     background-image: url("background3.JPG");
+     background-position: 0 0;
+     min-height: 30vw;
+}
+/*NAVIGATION MENU*/
+ nav {
+     z-index: 100;
+     background: rgb(210,201,149);
+     word-spacing: 3vw;
+     text-align: left;
+     overflow: hidden;
+     position: fixed;
+     width: 100%;
+     height: 3vw;
+}
+ nav a {
+     position: relative;
+     font-family: sans-serif;
+     font-weight: bolder;
+     font-size: 2.45vw;
+     text-decoration: none;
+     border-top: 20px solid transparent;
+     color: rgb(0,35,0);
+}
+ nav a:hover {
+     border-top: 15px solid rgb(0,35,0);
+}
+ #navlogo {
+     float: left;
+     width: 20vw;
+}
+ #logotext {
+     position: fixed;
+     left: 2vw;
+     top: -2.2vw;
+     font-family: 'IBM Plex Sans', sans-serif;
+     font-size: 2.5vw;
+     word-spacing: normal;
+     color: rgb(210,201,149);
+}
+/*ABOUT*/
+ .about {
+     margin: 0 auto;
+     z-index: 3;
+     position: relative;
      left: 0;
      top: 0;
      width: 100%;
@@ -132,7 +309,7 @@
      padding: .1vw 5vw .1vw 55vw;
 }
 /*FOOTER*/
- #footer .content {
+ footer{
      background-color: rgb(210,201,149);
      color: rgb(0,35,0);
      font-family: "Comic Sans MS", cursive, sans-serif;
