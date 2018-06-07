@@ -1,0 +1,208 @@
+/*GENERAL STUFF*/
+
+html,
+body {
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(0, 35, 0);
+}
+
+h1 {
+    font-size: 3vw;
+    color: rgb(210,201,149);
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+p {
+    color: rgb(210,201,149);
+    font-size: 1vw;
+}
+
+/*NAVIGATION MENU*/
+
+nav {
+    z-index: 100;
+    background: rgb(210, 201, 149);
+    word-spacing: 3vw;
+    text-align: left;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    height: 3vw;
+}
+
+nav a {
+    position: relative;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 2.45vw;
+    text-decoration: none;
+    border-top: 20px solid transparent;
+    color: rgb(0, 35, 0);
+}
+
+nav a:hover {
+    border-top: 15px solid rgb(0, 35, 0);
+}
+
+#navlogo {
+    float: left;
+    width: 20vw;
+}
+
+#logotext {
+    position: fixed;
+    left: 2vw;
+    top: -2.2vw;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 2.5vw;
+    word-spacing: normal;
+    color: rgb(210, 201, 149);
+}
+
+/*BACKGROUND IMAGE*/
+
+.background {
+    position: relative;
+    background-image: url("../imgs/resource-bg.JPG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 50vw;
+}
+
+.bg-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    font-size: 5vw;
+    font-weight: bolder;
+    color: rgb(210, 201, 149);
+    background-color: rgb(0, 35, 0);
+    padding: 3vw 3vw 3vw 3vw;
+    border-radius: 10vw;
+}
+
+.bg-2 {
+	    position: relative;
+    background-image: url(../imgs/coolhackerprogramming.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 25vw;
+}
+
+.bg-3 {
+	position: relative;
+    background-image: url(../imgs/robot.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 25vw;
+}
+
+/*FIRST RESOURCES*/
+.FIRST-content {
+	text-align: left;
+}
+
+head {
+	text-align: center;
+}
+
+#first-inspires {
+	position: relative;
+		top: -7.5vw;
+	left: 0vw;
+	width: 33.2vw;
+}
+
+#twitch {
+	position: relative;
+		left: 3vw;
+		top: -8vw;
+width: 31vw;
+height: 18vw;
+}
+
+
+.twitter {
+	position: relative;
+		top: -26.6vw;
+		left: 72vw;
+	max-width: 19vw;
+	max-height: 1vw;
+}
+
+.second-row {
+	position: relative;
+	top: 20vw;
+}
+
+.instagram {
+	position: relative;
+		top:-2vw;
+	width: 23.4vw;
+}
+
+.youtube {
+	position: relative;
+		top: -2.2vw;
+		left: 13.6vw;
+	width: 33.5vw;
+	height: 23.5vw;
+}
+
+/*PROGRAMMING*/
+.programming {
+	position: relative;
+		top: 0vw;
+}
+
+/*ROBOT RESOURCES*/
+.robo-content {
+	text-align: left;
+}
+
+
+/*ROBOT RESOURCES*/
+.icon {
+	width: 8%;
+	margin: 0.3vw .5vw;
+}
+
+#ptc {
+	position: relative;
+		top: -19vw;
+		left: 36vw;
+	width: 25%;
+}
+
+.solidworks {
+	position: relative;
+	top: -50vw;
+	left: 70vw;
+	width: 30%;
+}
+
+/*FOOTER*/
+footer {
+    position: relative;
+    bottom: 0;
+    background-color: rgb(210, 201, 149);
+    color: rgb(0, 35, 0);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 1vw;
+    text-align: right;
+}
+
+#github {
+    width: 1.4vw;
+    position: absolute;
+    left: 0;
+}
