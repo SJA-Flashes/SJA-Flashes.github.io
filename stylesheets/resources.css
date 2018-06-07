@@ -14,7 +14,7 @@ h1 {
 }
 
 p {
-    color: rgb(0, 35, 0);
+    color: rgb(210,201,149);
     font-size: 1vw;
 }
 
@@ -72,6 +72,16 @@ nav a:hover {
     height: 50vw;
 }
 
+.bg-2 {
+	    position: relative;
+    background-image: url(../imgs/coolhackerprogramming.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 25vw;
+}
+
 .bg-text {
     position: absolute;
     top: 50%;
@@ -84,6 +94,64 @@ nav a:hover {
     background-color: rgb(0, 35, 0);
     padding: 3vw 3vw 3vw 3vw;
     border-radius: 10vw;
+}
+
+/*FIRST RESOURCES*/
+.FIRST-content {
+	text-align: left;
+}
+
+head {
+	text-align: center;
+}
+
+#first-inspires {
+	position: relative;
+		top: -7.5vw;
+	left: 0vw;
+	width: 33.2vw;
+}
+
+#twitch {
+	position: relative;
+		left: 3vw;
+		top: -8vw;
+width: 31vw;
+height: 18vw;
+}
+
+
+.twitter {
+	position: relative;
+		top: -26.6vw;
+		left: 72vw;
+	max-width: 19vw;
+	max-height: 1vw;
+}
+
+.second-row {
+	position: relative;
+	top: 20vw;
+}
+
+.instagram {
+	position: relative;
+		top:-2vw;
+	width: 23.4vw;
+}
+
+.youtube {
+	position: relative;
+		top: -2.2vw;
+		left: 13.6vw;
+	width: 33.5vw;
+	height: 23.5vw;
+}
+
+/*PROGRAMMING*/
+.programming {
+	position: relative;
+		top: 0vw;
 }
 
 /*FOOTER*/
