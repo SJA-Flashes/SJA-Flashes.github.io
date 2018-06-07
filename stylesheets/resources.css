@@ -72,16 +72,6 @@ nav a:hover {
     height: 50vw;
 }
 
-.bg-2 {
-	    position: relative;
-    background-image: url(../imgs/coolhackerprogramming.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 25vw;
-}
-
 .bg-text {
     position: absolute;
     top: 50%;
@@ -94,6 +84,26 @@ nav a:hover {
     background-color: rgb(0, 35, 0);
     padding: 3vw 3vw 3vw 3vw;
     border-radius: 10vw;
+}
+
+.bg-2 {
+	    position: relative;
+    background-image: url(../imgs/coolhackerprogramming.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 25vw;
+}
+
+.bg-3 {
+	position: relative;
+    background-image: url(../imgs/robot.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 25vw;
 }
 
 /*FIRST RESOURCES*/
@@ -154,8 +164,33 @@ height: 18vw;
 		top: 0vw;
 }
 
-/*FOOTER*/
+/*ROBOT RESOURCES*/
+.robo-content {
+	text-align: left;
+}
 
+
+/*ROBOT RESOURCES*/
+.icon {
+	width: 8%;
+	margin: 0.3vw .5vw;
+}
+
+#ptc {
+	position: relative;
+		top: -19vw;
+		left: 36vw;
+	width: 25%;
+}
+
+.solidworks {
+	position: relative;
+	top: -50vw;
+	left: 70vw;
+	width: 30%;
+}
+
+/*FOOTER*/
 footer {
     position: relative;
     bottom: 0;
