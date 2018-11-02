@@ -1,9 +1,8 @@
 /*GENERAL STUFF*/
 
-html,
-body {
+html,body {
     margin: 0 auto;
-    text-align: center;
+    height,width: 100%;
 }
 
 h1 {
@@ -15,7 +14,7 @@ h1 {
 p {
     font-family: serif;
     font-weight: lighter;
-    font-size: 2vw;
+    font-size: 5vw;
     color: #d2c995;
 }
 
@@ -24,10 +23,10 @@ p {
 
 #logo {
     z-index: 1;
-    position: absolute;
-    top: 10vw;
-    left: 35vw;
-    width: 33vw;
+    position: relative;
+    top: 6vw;
+    left: 30vw;
+    width: 40vw;
 }
 
 .background1,
@@ -63,7 +62,7 @@ p {
 nav {
     z-index: 100;
     background: rgb(210, 201, 149);
-    word-spacing: 3vw;
+    word-spacing: 2.5vw;
     text-align: left;
     overflow: hidden;
     position: fixed;
