@@ -1,136 +1,32 @@
-/*GENERAL STUFF*/
-
-html,body {
-    margin: 0 auto;
-    height, width:100%;
-    text-align: center;
-    background: rgb(0, 35 ,0);
-    font-family: 'Kanit', sans-serif;
+#backdrop {
+    background-image: url("../imgs/background.JPG");
 }
-
-h1 {
-    font-size: 5vw;
-    color: #d2c995;
-}
-
-p {
-    font-size: 2vw;
-    color: #d2c995;
-    padding: 0 1vw 0 1vw;
-}
-
-
-/*BACKDROP*/
-
 #logo {
     z-index: 1;
     position: relative;
-      top: 6vw;
-    width: 40vw;
+    top: 5vw;
+    width: 42.5%;
 }
-
-.background1,
-.background2,
-.background3 {
-    position: relative;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-.background1 {
-    background-image: url("../imgs/background.JPG");
-    height: 50vw;
-}
-
-.background2 {
+#background2 {
     background-image: url("../imgs/background2.JPG");
-    min-height: 30vw;
 }
-
-.background3 {
+#background3 {
     background-image: url("../imgs/background3.JPG");
-    min-height: 30vw;
 }
-
-
-/*NAVIGATION MENU*/
-
-nav {
-    z-index: 999;
-    background: rgb(210, 201, 149);
-    word-spacing: 2.5vw;
-    overflow: hidden;
-    position: fixed;
-    width: 100%;
-    height: 2.75vw;
+.robotContainer {
+    margin: 0vw 60vw 0vw 5vw;
 }
-
-nav a {
-    position: relative;
-      left: -14vw;
-    font-family: sans-serif;
-    font-size: 2.5vw;
-    font-weight: bolder;
-    text-decoration: none;
-    color: rgb(0, 35, 0);
-}
-
-#navlogo {
-    float: left;
-    width: 16vw;
-}
-
-#logotext {
-    position: fixed;
-    left: 0.5vw;
-    top: -2vw;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 2.5vw;
-    word-spacing: normal;
-    color: rgb(210, 201, 149);
-}
-
-/*2018 ROBOT HOMEPAGE*/
-
-.robot a {
+ .robotContainer a {
     text-decoration: underline;
     color: inherit;
 }
-
-.robot img {
-  position: absolute;
-    top: 121vw;
+ .robotContainer img {
+    position: absolute;
     left: 41vw;
-  width: 55vw;
-  border-radius: 10vw;
+    height: 50vw;
+    border-radius: 10vw;
 }
-
-#robot-content {
-    padding: 0vw 60vw 0vw 0vw;
-}
-
-
-/*WHAT IS FIRST?*/
-
-.FIRST img {
+ .FIRSTContainer img {
     float: left;
     height: 25vw;
-}
-
-/*FOOTER*/
-
-footer {
-    background-color: rgb(210, 201, 149);
-    color: rgb(0, 35, 0);
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: 1.25vw;
-    text-align: right;
-}
-
-#github {
-    width: 1.75vw;
-    position: absolute;
-    left: 0;
 }

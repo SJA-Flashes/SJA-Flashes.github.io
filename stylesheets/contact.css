@@ -1,124 +1,16 @@
-/*GENERAL STUFF*/
-
-html,
-body {
-    margin: 0 auto;
-    text-align: center;
-    background-color: rgb(0, 35, 0);
-    height: 99%;
-}
-
-h1 {
-    font-size: 3vw;
-    color: rgb(0, 35, 0);
-}
-
-p {
-    color: rgb(0, 35, 0);
-    font-size: 1vw;
-}
-
-a {
-    text-decoration: none;
-}
-
-
-/*NAVIGATION MENU*/
-
-nav {
-    z-index: 100;
-    background: rgb(210, 201, 149);
-    word-spacing: 3vw;
-    text-align: left;
-    overflow: hidden;
-    position: fixed;
-    width: 100%;
-    height: 3vw;
-}
-
-nav a {
-    position: relative;
-    font-family: sans-serif;
-    font-weight: bolder;
-    font-size: 2.45vw;
-    text-decoration: none;
-    border-top: 20px solid transparent;
-    color: rgb(0, 35, 0);
-}
-
-nav a:hover {
-    border-top: 15px solid rgb(0, 35, 0);
-}
-
-#navlogo {
-    float: left;
-    width: 20vw;
-}
-
-#logotext {
-    position: fixed;
-    left: 2vw;
-    top: -2.2vw;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 2.5vw;
-    word-spacing: normal;
-    color: rgb(210, 201, 149);
-}
-
-/*BACKGROUND IMAGES*/
-
-.background {
-    position: relative;
+#backdrop {
     background-image: url("../imgs/background4.JPG");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 50vw;
 }
-
-.bg-p {
+#email {
     position: relative;
-    top: 2vw;
+    top: 25vw;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: sans-serif;
-    font-size: 1.5vw;
-    font-weight: bolder;
-    color: rgb(0, 32, 0);
-    padding: 3vw 0vw;
-}
-
-
-.bg-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: sans-serif;
-    font-size: 5vw;
-    font-weight: bolder;
-    color: rgb(0, 32, 0);
-    background-color: rgb(210, 201, 149);
+    width: 30%;
     padding: 3vw 3vw 3vw 3vw;
     border-radius: 10vw;
-}
-
-/*FOOTER*/
-
-footer {
-    z-index: 100;
-    position: relative;
-    top: 0vw;
-    background-color: rgb(210, 201, 149);
-    color: rgb(0, 35, 0);
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: 1vw;
-    text-align: right;
-}
-
-#github {
-    width: 1.4vw;
-    position: absolute;
-    left: 0;
+    font-size: 2.75vw;
+    font-weight: bolder;
+    color: #d2c995;
+    background-color: rgb(0, 35, 0);
 }

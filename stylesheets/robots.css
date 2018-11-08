@@ -1,176 +1,20 @@
-/*GENERAL STUFF*/
-
-html,
-body {
-    margin: 0 auto;
-    text-align: center;
-    background-color: rgb(0, 35, 0);
-}
-
 h1 {
-    font-size: 3vw;
     color: rgb(0, 35, 0);
 }
-
 p {
     color: rgb(0, 35, 0);
-    font-size: 1vw;
+    font-size: 1.25vw;
 }
-
-
-/*NAVIGATION MENU*/
-
-nav {
-    z-index: 999;
-    background: rgb(210, 201, 149);
-    word-spacing: 2.5vw;
-    overflow: hidden;
-    position: fixed;
-    width: 100%;
-    height: 2.75vw;
-}
-
-nav a {
-    position: relative;
-      left: -14vw;
-    font-family: sans-serif;
-    font-size: 2.5vw;
-    font-weight: bolder;
-    text-decoration: none;
-    color: rgb(0, 35, 0);
-}
-
-#navlogo {
-    float: left;
-    width: 16vw;
-}
-
-#logotext {
-    position: fixed;
-    left: 0.5vw;
-    top: -2vw;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 2.5vw;
-    word-spacing: normal;
-    color: rgb(210, 201, 149);
-}
-
-
-/*BACKGROUND IMAGE*/
-
-.background {
-    position: relative;
+#backdrop {
     background-image: url("../imgs/robotsbg.JPG");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 50vw;
 }
-
-.bg-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: sans-serif;
-    font-size: 5vw;
-    font-weight: bolder;
-    color: rgb(210, 201, 149);
-    background-color: rgb(0, 35, 0);
-    padding: 3vw 3vw 3vw 3vw;
-    border-radius: 10vw;
+ #robotsContainer {
+    display: flex;
 }
-
-
-/*ROBOTS*/
-
-#robots {
-    position: relative;
-    margin-left: 5vw;
-    margin-top: 3vw;
-    font-weight: bolder;
-    text-align: center;
-    width: 25%;
-}
-
-.robot2018 {
-    position: absolute;
-    top: 0;
+ .robot2018 img, .robot2017 img, .robot2016 img, .robot2015 img {
+    max-width: 90%;
+    border-radius: 2vw}
+ .robot2018, .robot2017, .robot2016, .robot2015 {
+    max-width: 25vw;
     background: rgb(210, 201, 149);
-    font-family: 'IBM Plex Sans', sans-serif;
-    padding: 1vw 2vw 2vw 1vw;
-    border-radius: 10px;
-    height: auto;
-}
-
-.robot2018-img {
-    width: 105%;
-    border-radius: 10px;
-}
-
-.robot2017 {
-    position: absolute;
-    top: 0;
-    position: relative;
-    left: 32vw;
-    background: rgb(210, 201, 149);
-    font-family: 'IBM Plex Sans', sans-serif;
-    padding: 1vw 2vw 2vw 1vw;
-    border-radius: 10px;
-    height: auto;
-}
-
-.robot2017-img {
-    width: 105%;
-    border-radius: 10px;
-}
-
-.robot2016 {
-    position: absolute;
-    top: 0;
-    left: 65vw;
-    background: rgb(210, 201, 149);
-    font-family: 'IBM Plex Sans', sans-serif;
-    padding: 1vw 2vw 2vw 1vw;
-    border-radius: 10px;
-    height: auto;
-}
-
-.robot2016-img {
-    width: 20vw;
-    border-radius: 10px;
-}
-
-.robot2015 {
-    position: relative;
-    bottom: -17vw;
-    background: rgb(210, 201, 149);
-    font-family: 'IBM Plex Sans', sans-serif;
-    padding: 1vw 2vw 2vw 1vw;
-    border-radius: 10px;
-    height: auto;
-}
-
-.robot2015-img {
-    width: 105%;
-    border-radius: 10px;
-}
-
-/*FOOTER*/
-
-footer {
-    position: relative;
-    bottom: -20vw;
-    background-color: rgb(210, 201, 149);
-    color: rgb(0, 35, 0);
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: 1vw;
-    text-align: right;
-}
-
-#github {
-    width: 1.4vw;
-    position: absolute;
-    left: 0;
 }
