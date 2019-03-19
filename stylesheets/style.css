@@ -1,32 +1,11 @@
-#backdrop {
-    background-image: url("../imgs/background.JPG");
+.backdrop {background-image: url("../imgs/background.JPG");}
+
+.backdrop #logo {
+  position: absolute;
+  top: 17%;
+  left: 32%;
+  width: 40%;
 }
-#logo {
-    z-index: 1;
-    position: relative;
-    top: 5vw;
-    width: 42.5%;
-}
-#background2 {
-    background-image: url("../imgs/background2.JPG");
-}
-#background3 {
-    background-image: url("../imgs/background3.JPG");
-}
-.robotContainer {
-    margin: 0vw 60vw 0vw 5vw;
-}
- .robotContainer a {
-    text-decoration: underline;
-    color: inherit;
-}
- .robotContainer img {
-    position: absolute;
-    left: 41vw;
-    height: 50vw;
-    border-radius: 10vw;
-}
- .FIRSTContainer img {
-    float: left;
-    height: 25vw;
-}
+
+.backdrop2 {background-image: url("../imgs/background2.JPG");}
+.backdrop3 {background-image: url("../imgs/background3.JPG");}

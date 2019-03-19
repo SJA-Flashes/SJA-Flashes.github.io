@@ -1,20 +1,3 @@
-h1 {
-    color: rgb(0, 35, 0);
-}
-p {
-    color: rgb(0, 35, 0);
-    font-size: 1.25vw;
-}
-#backdrop {
-    background-image: url("../imgs/robotsbg.JPG");
-}
- #robotsContainer {
-    display: flex;
-}
- .robot2018 img, .robot2017 img, .robot2016 img, .robot2015 img {
-    max-width: 90%;
-    border-radius: 2vw}
- .robot2018, .robot2017, .robot2016, .robot2015 {
-    max-width: 25vw;
-    background: rgb(210, 201, 149);
-}
+.backdrop {background-image: url("../imgs/robotsbg.JPG");}
+
+th {max-width: 333vw;}
