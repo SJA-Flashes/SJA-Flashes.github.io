@@ -1,10 +1,8 @@
 .backdrop {background-image: url("../imgs/background.JPG");}
 
 .backdrop #logo {
-  position: absolute;
-  top: 17%;
-  left: 32%;
-  width: 40%;
+  padding-top: 2vw;
+  width: 750px;
 }
 
 .backdrop2 {background-image: url("../imgs/background2.JPG");}

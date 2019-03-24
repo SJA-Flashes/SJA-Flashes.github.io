@@ -37,7 +37,7 @@ a{color: var(--SJA_Gold);}
 
 .backdrop #backdropText {
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 37.5%;
   width: 25%;
   border-radius: 5vw;
@@ -47,9 +47,8 @@ a{color: var(--SJA_Gold);}
 
 /*NAV BAR*/
 nav {
-  position: fixed;
+  position: sticky;
   top: 0;
-  width: 100%;
   background: var(--SJA_Green);
   word-spacing: 3vw;
   padding: 0.50vw;
