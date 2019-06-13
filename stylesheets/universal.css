@@ -7,6 +7,7 @@ html, body {
   text-align: center;
   color: var(--SJA_Gold);
   background: var(--SJA_Green);
+  font-family: 'ITCAvantGardePro-Md';
 }
 
 h1{font-size: 4vw;}
@@ -15,6 +16,13 @@ p{
   font-size: 1.5vw;
 }
 a{color: var(--SJA_Gold);}
+
+@font-face {
+    font-family: 'ITCAvantGardePro-Md';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../font/ITCAvantGardePro-Md.woff') format('woff');
+}
 
 /*BACKGROUND*/
 .backdrop {
